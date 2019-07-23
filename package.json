@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "koa": "^2.7.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "private",
+  "private": true
+}
