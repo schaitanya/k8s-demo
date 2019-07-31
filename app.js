@@ -5,6 +5,7 @@ const app = new Koa();
 app.use(async (ctx) => {
   ctx.body = {
     env: process.env,
+    version: 1,
   }
 });
 
