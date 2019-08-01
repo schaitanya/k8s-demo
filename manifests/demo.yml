@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: primary
-        image: index.docker.io/schaitanya/spk-k8s-demo
+        image: schaitanya/node-app
         ports:
         - containerPort: 8000
         readinessProbe:
