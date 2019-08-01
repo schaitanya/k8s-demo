@@ -13,7 +13,6 @@ metadata:
   name: spinnaker-demo-prod-deployment
   labels:
     source: demo
-    stack: frontend
     app: spinnaker-prod
 spec:
   replicas: 3
