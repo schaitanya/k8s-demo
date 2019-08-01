@@ -45,7 +45,7 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
-  name: spinnaker-demo-prod-svc
+  name: spinnaker-demo-prod
 spec:
   selector:
     source: demo

@@ -45,7 +45,7 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
-  name: spinnaker-demo
+  name: spinnaker-demo-stg
 spec:
   selector:
     source: demo
@@ -54,3 +54,4 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 8000
+  type: NodePort
