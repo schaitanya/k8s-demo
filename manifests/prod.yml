@@ -20,7 +20,7 @@ spec:
   selector:
     matchLabels:
       source: demo
-      app: spinnaker
+      app: spinnaker-prod
   template:
     metadata:
       labels:
