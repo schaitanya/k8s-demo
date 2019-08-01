@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: primary
-        image: schaitanya/node-app
+        image: index.docker.io/schaitanya/node-app
         ports:
         - containerPort: 8000
         readinessProbe:
